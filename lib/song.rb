@@ -19,6 +19,15 @@ def self.all
   
 end
 
+prince =
+Artist.new("Prince")
+pop = Genre.new("pop")
+
+kiss =
+Song.new("Kiss"
+prince, pop)
+
+end 
 
 
 end
