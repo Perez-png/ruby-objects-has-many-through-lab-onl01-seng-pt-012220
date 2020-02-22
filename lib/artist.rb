@@ -31,6 +31,9 @@ def artist
   songs.map {|song| song.artist}
 end
 
-
+ def pop = Genre.new("pop")
+   
+ end
+ 
 end
 
