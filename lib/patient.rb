@@ -1,6 +1,6 @@
 require 'pry'
 
-class Doctor
+class Patient 
   attr_accessor :name
   
   @@all = []
