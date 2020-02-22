@@ -14,4 +14,8 @@ class Doctor
   end
 end
 
+
+doogie = Doctor.new("Doogie Howser")
+
+  
   
