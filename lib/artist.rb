@@ -24,6 +24,13 @@ def new_song(name, genre)
 end
 
 def songs
+  Song.all.select{|song| Song.genre == self}
+  Song.artist == self
+  
+def artist 
+  songs.map {|song| song.artist}
+end
+
 
 end
 
