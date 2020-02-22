@@ -13,3 +13,8 @@ class Patient
     
   end
 end
+
+
+doogie = Doctor.new("Doogie Howser")
+
+end
